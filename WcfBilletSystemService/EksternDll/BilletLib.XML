@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BilletLib</name>
+    </assembly>
+    <members>
+        <member name="T:BilletLib.BaseBil">
+            <summary>
+            Interfacet som de andre klasser arver fra
+            </summary>
+        </member>
+        <member name="P:BilletLib.BaseBil.Nummerplade">
+            <summary>
+            angiver nummer på nummerpladen (kan ikke være over 7).
+            </summary>
+        </member>
+        <member name="M:BilletLib.BaseBil.Pris">
+            <summary>
+            angiver pris på at komme over broen
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BilletLib.BaseBil.Køretøj">
+            <summary>
+            angiver hvilket køretøj man har at gøre med
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:BilletLib.BaseBil.BroBizz">
+            <summary>
+            angiver om køretøj har brobizz eller ej
+            </summary>
+        </member>
+        <member name="T:BilletLib.Bil">
+            <summary>
+            Klassen bil som indeholder pris og køretøj
+            </summary>
+        </member>
+        <member name="M:BilletLib.Bil.Pris">
+            <summary>
+            Pris Metode, som giver en total pris på 240, men hvis det er weekend eller man har brobizz får man rabat.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BilletLib.Bil.Køretøj">
+            <summary>
+            Returnere string, så man ved hvilket køretøj man har at gøre med (Bil).
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:BilletLib.BilØresund">
+            <summary>
+            Klassen Bil Øresund som indeholder Pris og Køretøj
+            </summary>
+        </member>
+        <member name="M:BilletLib.BilØresund.Køretøj">
+            <summary>
+            Returnere string, så man ved hvilket køretøj man har at gøre med (Øresund Bil).
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BilletLib.BilØresund.Pris">
+            <summary>
+            BilØresund Pris retunere 410 kr. og giver rabat hvis man har brobizz = 161 kr.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:BilletLib.MC">
+            <summary>
+            Klassen MC som indeholder Pris og Køretøj
+            </summary>
+        </member>
+        <member name="M:BilletLib.MC.Pris">
+            <summary>
+            MC Pris retunere 125
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BilletLib.MC.Køretøj">
+            <summary>
+            Returnere string, så man ved hvilket køretøj man har at gøre med (MC).
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:BilletLib.MCØresund">
+            <summary>
+            Klassen MC Øresund som indeholder Pris og Køretøj
+            </summary>
+        </member>
+        <member name="M:BilletLib.MCØresund.Køretøj">
+            <summary>
+            Returnere string, så man ved hvilket køretøj man har at gøre med (Øresund MC).
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BilletLib.MCØresund.Pris">
+            <summary>
+            MC Øresund returnere 210 kr, men hvis man har brobizz skal den returnere 73 kr.
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
